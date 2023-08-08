@@ -22,7 +22,7 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginStart="0dp"
                 android:layout_marginTop="0dp"
-                android:layout_marginBottom="30dp"
+                android:layout_marginBottom="32dp"
                 android:src="@drawable/mat" />
 
 
@@ -30,7 +30,7 @@
                 android:id="@+id/zz"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
+                android:layout_marginBottom="16dp"
                 android:textColor="@color/white"
                 android:inputType="text"
                 android:textSize="20dp"
@@ -40,7 +40,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
+                android:layout_marginBottom="16dp"
                 android:text="이름 : 홍길동"
                 android:textColor="@color/white"
                 android:textSize="20dp"
@@ -50,7 +50,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
+                android:layout_marginBottom="16dp"
                 android:text="나이 : 99"
                 android:textColor="@color/white"
                 android:textSize="20dp"
@@ -60,7 +60,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
+                android:layout_marginBottom="16dp"
                 android:text="MBTI : ??"
                 android:textColor="@color/white"
                 android:textSize="20dp"
@@ -73,7 +73,9 @@
                 android:layout_height="wrap_content"
                 android:text="종료"
                 android:textSize="18dp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:background="@color/yellow"
+                android:layout_marginTop="22dp"/>
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
