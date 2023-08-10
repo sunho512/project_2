@@ -12,7 +12,6 @@ class SignInActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         val id = intent.getStringExtra("id")
         val userPassword = intent.getStringExtra("password")
-        // 받은 데이터를 사용하여 EditText에 표시
         val idEditText = findViewById<EditText>(R.id.id1)
         idEditText.setText(id)
         val passwordEditText = findViewById<EditText>(R.id.password2)
